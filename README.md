@@ -1,6 +1,8 @@
 # 笔记
 
-## 1、脚手架文件结构
+<a href ="C1"> 1. 脚手架文件结构</a>
+
+## <a id="C1">1、脚手架文件结构</a>
     ├── node_modules
     ├── public
     │   ├─ favicon.ico：页面标签
