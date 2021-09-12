@@ -16,7 +16,9 @@
 
 <script>
 import { nanoid } from 'nanoid';
+
 export default {
+  name:"TaskInput",
   props:[],
   data(){
     return{
@@ -39,7 +41,7 @@ export default {
       this.title = "";
       this.$emit("get-todo", res)
     }
-  }
+  },
 }
 </script>
 

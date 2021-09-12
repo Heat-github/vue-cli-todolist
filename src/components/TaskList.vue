@@ -12,8 +12,13 @@
 </template>
 
 <script>
+import { sorts } from '../mixins'
+
+
 export default {
-    props:["todos"]
+    name:"TaskList",
+    props:["todos"],
+    mixins:[sorts]
 }
 </script>
 
