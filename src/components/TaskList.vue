@@ -1,5 +1,5 @@
 <template>
-  <ul >
+  <ul class="list">
     <li 
       v-for="todo of todos"
 
@@ -23,5 +23,7 @@ export default {
 </script>
 
 <style>
-
+.list{
+  background: tan;
+}
 </style>
